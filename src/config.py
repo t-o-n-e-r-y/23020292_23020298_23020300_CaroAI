@@ -45,7 +45,7 @@ COUNTER_ATTACK_BONUS = 180_000      # Điểm thưởng cho nước vừa chặn
 
 
 # Cấu hình benchmark riêng để chạy thực nghiệm nhanh hơn.
-BENCHMARK_DEPTH = 2
+BENCHMARK_DEPTH = 3
 BENCHMARK_TIME_LIMIT = 999
 
 # ============================================================
