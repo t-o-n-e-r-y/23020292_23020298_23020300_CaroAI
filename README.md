@@ -1,6 +1,6 @@
 # Caro AI
 
-## 1\. Giới thiệu
+## 1. Giới thiệu
 
 Đây là chương trình chơi cờ Caro bằng Python và pygame. Chương trình hỗ trợ:
 
@@ -12,7 +12,7 @@
 * Hiển thị thông tin AI: số trạng thái đã xét, số nhánh bị cắt, thời gian chạy, nước ứng viên, nước đang xét và nước tốt nhất.
 * Hiển thị điểm Evaluation hiện tại và nhật ký đánh giá nước đi.
 
-## 2\. Cài đặt
+## 2. Cài đặt
 
 Mở terminal trong thư mục project và chạy:
 
@@ -20,7 +20,7 @@ Mở terminal trong thư mục project và chạy:
 pip install -r requirements.txt
 ```
 
-## 3\. Chạy game
+## 3. Chạy game
 
 ```bash
 python src/main.py
@@ -32,7 +32,7 @@ python src/main.py
 * Nếu chơi với Máy, chọn người đi trước hoặc máy đi trước.
 * Chọn thuật toán Minimax hoặc Alpha-Beta.
 
-## 4\. Chạy benchmark
+## 4. Chạy benchmark
 
 ```bash
 python src/benchmark.py
@@ -49,31 +49,31 @@ File benchmark sẽ chạy Minimax và Alpha-Beta trên nhiều trạng thái b�
 * Số nhánh bị cắt.
 * Thời gian chạy.
 
-## 5\. Cấu hình quan trọng
+## 5. Cấu hình quan trọng
 
 Các tham số chính nằm trong `src/config.py`:
 
 ```python
-BOARD\\\_SIZE = 11
-WIN\\\_LENGTH = 4
-CELL\\\_SIZE = 50
-AI\\\_DEPTH = 3
-AI\\\_TIME\\\_LIMIT = 15
-SEARCH\\\_RADIUS = 2
-MAX\\\_CANDIDATE\\\_MOVES = 20
+BOARD_SIZE = 11
+WIN_LENGTH = 4
+CELL_SIZE = 50
+AI_DEPTH = 3
+AI_TIME_LIMIT = 15
+SEARCH_RADIUS = 2
+MAX_CANDIDATE_MOVES = 20
 ```
 
 Ý nghĩa:
 
-* `BOARD\\\_SIZE`: kích thước bàn cờ, có thể đổi thành 15.
-* `WIN\\\_LENGTH`: số quân liên tiếp để thắng, theo đề là 4.
-* `CELL\\\_SIZE`: độ rộng mỗi ô cờ.
-* `AI\\\_DEPTH`: độ sâu tìm kiếm của AI.
-* `AI\\\_TIME\\\_LIMIT`: thời gian tối đa AI suy nghĩ mỗi nước.
-* `SEARCH\\\_RADIUS`: phạm vi AI xét nước đi quanh các ô đã có quân.
-* `MAX\\\_CANDIDATE\\\_MOVES`: số nước ứng viên tối đa AI xét ở mỗi tầng để giảm thời gian chạy.
+* `BOARD_SIZE`: kích thước bàn cờ, có thể đổi thành 15.
+* `WIN_LENGTH`: số quân liên tiếp để thắng, theo đề là 4.
+* `CELL_SIZE`: độ rộng mỗi ô cờ.
+* `AI_DEPTH`: độ sâu tìm kiếm của AI.
+* `AI_TIME_LIMIT`: thời gian tối đa AI suy nghĩ mỗi nước.
+* `SEARCH_RADIUS`: phạm vi AI xét nước đi quanh các ô đã có quân.
+* `MAX_CANDIDATE_MOVES`: số nước ứng viên tối đa AI xét ở mỗi tầng để giảm thời gian chạy.
 
-## 6\. Cấu trúc thư mục
+## 6. Cấu trúc thư mục
 
 ```text
 src/
