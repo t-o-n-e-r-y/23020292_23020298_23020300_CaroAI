@@ -12,7 +12,7 @@
 * Hiển thị thông tin AI: số trạng thái đã xét, số nhánh bị cắt, thời gian chạy, nước ứng viên, nước đang xét và nước tốt nhất.
 * Hiển thị điểm Evaluation hiện tại và nhật ký đánh giá nước đi.
 
-Lưu ý: chương trình đang để AI suy nghĩ 15s cho nên người chơi sẽ phải chờ AI nghĩ, nhưng người chơi có thể giảm thời gian nghĩ xuống ở biên AI_TIME_LIMIT trong file config.py 
+Lưu ý: chương trình đang để AI suy nghĩ 15s cho nên người chơi sẽ phải chờ AI nghĩ, nhưng người chơi có thể giảm thời gian nghĩ xuống ở biến AI_TIME_LIMIT trong file config.py 
 
 ## 2. Cài đặt
 
